@@ -1,5 +1,14 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import index from '/js/Web/Components/Header/index';
+import Header from './js/Web/Components/Header/Header';
+import './reset+grids.css';
 
-ReactDOM.render(<index />,  document.querySelector('#root'));
+const App = () => {
+    return(
+        <>
+            <Header />
+        </>
+    )
+};
+
+export default App;
+
